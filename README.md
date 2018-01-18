@@ -9,7 +9,9 @@ This repository contains the OpenFaaS provider for the Nomad scheduler.  OpenFaa
 For the simplest installation, only two containers need to run on the Nomad cluster:
 1. OpenFaaS Gateway
 2. OpenFaaS Nomad provider
+
 However for OpenFaaS to automatically scale your function based on inbound requests and to be able to gather metrics from the Nomad provider two additional containers are optionally run.
+
 3. Prometheus DB
 4. StatsD server for Prometheus
 5. Grafana for querying Prometheus data
